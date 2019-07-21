@@ -1,0 +1,9 @@
+Starting_cookies = [10,10]
+Current_cookies = Starting_cookies
+Consumed_cookies = [10,10]
+Current_cookies[0] -= Consumed_cookies[0]
+Current_cookies[1] -= Consumed_cookies[1]
+
+print('Rum and Tum had ',Starting_cookies[0],' and ',Starting_cookies[1],' cookies, respectively')
+print('Rum and Tum consumed ',Consumed_cookies[0],' and ',Consumed_cookies[1],' cookies, respectively')
+print('Rum and Tum currently have ',Current_cookies[0],' and ',Current_cookies[1],' cookies, respectively')
